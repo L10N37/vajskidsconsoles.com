@@ -1,0 +1,79 @@
+/* Reset Box Model */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* Correct font family rendering */
+body {
+    line-height: 1;
+}
+
+/* Remove list styles (bullets, numbers) */
+ol, ul {
+    list-style: none;
+}
+
+/* Remove hyperlinks default styles */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remove table border spacing */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Reset form elements */
+input, select {
+    vertical-align: middle;
+}
+
+/* Reset button styles */
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    cursor: pointer;
+}
+
+/* Reset text input spacing */
+input[type="search"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+    vertical-align: baseline;
+}
+
+/* Remove inner padding and border in Firefox */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+
+/* Remove inner padding and outer border in Firefox */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+/* Reset textarea resizing */
+textarea {
+    overflow: auto;
+    resize: vertical;
+}
