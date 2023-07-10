@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    color: white;
+
+}
+
+header{
+    text-align: center;
+    padding: 50px
+}
+
+h1{
+    font-size: 60px;
+  }
+
+p{
+    font-size: 28px;
+    text-align: center;
+}
