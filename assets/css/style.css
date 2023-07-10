@@ -1,0 +1,81 @@
+header{
+  text-align: center;
+  padding: 50px
+}
+
+
+body{
+    background-color: black;
+    color: white;
+}
+
+h1{
+  font-size: 60px;
+}
+
+p{
+  font-size: 28px;
+  text-align: center;
+  padding: 50px;
+}
+
+.return{
+padding: 50px;
+color: green;
+}
+
+a{
+  font-size: 45px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+.installLogo{
+  padding: 40px;
+  display: block;
+  max-width: 75%;
+  height: auto;
+  margin: 0 auto; /* Centers the logo horizontally */
+}
+
+#mainlogo {
+    padding: 25px;
+    display: block;
+    max-width: 60%;
+    height: auto;
+    margin: 0 auto; /* Centers the logo horizontally */
+  }
+
+footer {
+    z-index: -99;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+
+@media screen and (min-width: 768px) {
+    /* Styles for desktop resolutions */
+    #mainlogo {
+      max-width: 15%;
+    }
+}
+
+.aboutMeButton {
+  font-size: 25px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(168, 173, 178);
+  border: none;
+  padding: 10px 20px;
+  transition: background-color 0.3s, font-size 0.3s;
+}
+
+.aboutMeButton:hover {
+  color: yellow;
+  font-size: 28px;
+}
