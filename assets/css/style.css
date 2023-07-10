@@ -47,6 +47,7 @@ a{
   }
 
 footer {
+    display: none;
     z-index: -99;
     text-align: center;
     background-color: black;
@@ -59,13 +60,13 @@ footer {
   }
 
 @media screen and (min-width: 768px) {
-    /* Styles for desktop resolutions */
-    #mainlogo {
-      max-width: 15%;
-    }
+  /* Styles for desktop resolutions */
+  #mainlogo {
+    max-width: 15%;
+  }
 
-    footer {
-      display: none;
+  footer {
+    display: block;
   }
 }
 
