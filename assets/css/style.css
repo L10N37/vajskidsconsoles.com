@@ -31,6 +31,7 @@ a{
 }
 
 .installLogo{
+  border-radius: 80px;
   padding: 40px;
   display: block;
   max-width: 75%;
