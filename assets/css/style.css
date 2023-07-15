@@ -72,6 +72,9 @@ a{
     height: auto;
     margin: 0 auto; /* Centers the logo horizontally */
   }
+i{
+  font-style: italic;
+}
 
 footer {
     display: none;
