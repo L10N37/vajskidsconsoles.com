@@ -46,6 +46,16 @@ a{
     margin: 0 auto; /* Centers the logo horizontally */
   }
 
+  #modpics {
+    border: solid white;
+    border-radius: 80px;
+    padding: 25px;
+    display: block;
+    max-width: 60%;
+    height: auto;
+    margin: 0 auto; /* Centers the logo horizontally */
+  }
+
   .payment-button-container {
     text-align: center;
   }
