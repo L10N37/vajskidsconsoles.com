@@ -16,7 +16,6 @@ p{
   font-size: 28px;
   text-align: center;
   padding: 50px;
-  
 }
 
 .return{
@@ -28,6 +27,10 @@ a{
   font-size: 45px;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
+}
+
+a:hover{
+  color: rgb(247, 247, 67);
 }
 
 .installLogo{
