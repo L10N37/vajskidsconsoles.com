@@ -39,7 +39,15 @@
         <br>
         The only sucky part about this mod? Good luck finding the NTSC SMD xtal oscillators. I have an ample supply of JP PU18 systems to take these off, as those will be getting actual
         DFO board installations in the future. An alternate solution is to use the large 5v oscillators. These work fine at ~3.3v, you could mount them upside down and run wires to the 
-        footprint pads as the PU8 systems (unlike all future models) have a stack of room under the top plate.
+        footprint pads as the PU8 systems (unlike all future models) have a stack of room under the top plate.        <br>
+        <br>
+        <br>
+        <br>
+        Update: There are NTSC-J revisions I've come across that won't work in PAL mode at all, in the case of using this guide to instead install the missing PAL GPU XTAL, 
+        you need to also remove the zero ohm link to ground, which is grounding out the PAL clock input pin.
+        <br>
+        <br>
+        <img id="modpics" src="../assets/images/guides/pu8dualregion/JP_PU8_PAL-pulldown.png" alt="PU8 rear board GPU clock area">
 
          </p>
     </header>
